@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript CRUD Operation App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <h1>JavaScript CRUD Operation App</h1>
+    </header>
+
+    <main class="main-back">
+        <section>
+            <div class="crud-form">
+                <div class="main-add">
+                    <h2>Student ADD Data Form</h2>
+                    <form class="addform" id="AddForm" action="">
+                        <div class="addinputs">
+                            <label for="studentADDname">Student Name:</label>
+                            <input class="inputs" type="text" placeholder="Student-name" id="studentADDname"
+                                name="studentADDname" value="" required>
+                        </div>
+                        <div class="addinputs">
+                            <label for="studentADDage">Student Age:</label>
+                            <input class="inputs" type="text" placeholder="Student-age" id="studentADDage"
+                                name="studentADDage" value="" required>
+                        </div>
+                        <div class="addinputs">
+                            <label for="studentADDemail">Student E-mail:</label>
+                            <input class="inputs" type="email" placeholder="Student-email" id="studentADDemail"
+                                name="studentADDemail" value="" required>
+                        </div>
+                        <div class="addinputs">
+                            <label for="studentADDnumber">Student Number:</label>
+                            <input class="inputs" type="tel" placeholder="Student-number" id="studentADDnumber"
+                                name="studentADDnumber" value="" required>
+                        </div>
+                        <div class="addinputs">
+                            <label for="studentADDaddress">Student Address:</label>
+                            <textarea class="inputs text-area" cols="10" rows="5" placeholder="Student-address"
+                                id="studentADDaddress" name="studentADDaddress" required></textarea>
+                        </div>
+                        <div class="addinputs">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="main-edit">
+                    <h2>Student EDIT Data Form</h2>
+                    <form class="editform" id="EditForm" action="">
+                        <div class="addinputs">
+                            <label for="studentEDITname">Student Name:</label>
+                            <input class="inputs" type="text" placeholder="Student-name" id="studentEDITname"
+                                name="studentEDITname" value="" required>
+                        </div>
+                        <div class="addinputs">
+                            <label for="studentEDITage">Student Age:</label>
+                            <input class="inputs" type="text" placeholder="Student-age" id="studentEDITage"
+                                name="studentEDITage" value="" required>
+                        </div>
+                        <div class="addinputs">
+                            <label for="studentEDITemail">Student E-mail:</label>
+                            <input class="inputs" type="email" placeholder="Student-email" id="studentEDITemail"
+                                name="studentEDITemail" value="" required>
+                        </div>
+                        <div class="addinputs">
+                            <label for="studentEDITnumber">Student Number:</label>
+                            <input class="inputs" type="tel" placeholder="Student-number" id="studentEDITnumber"
+                                name="studentEDITnumber" value="" required>
+                        </div>
+                        <div class="addinputs">
+                            <label for="studentEDITaddress">Student Address:</label>
+                            <textarea class="inputs text-area" cols="10" rows="5" placeholder="Student-address"
+                                id="studentEDITaddress" name="studentEDITaddress" required></textarea>
+                        </div>
+                        <div class="addinputs">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="view-form">
+                    <h2>Student Data View Table</h2>
+                    <div class="student-table"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+Az

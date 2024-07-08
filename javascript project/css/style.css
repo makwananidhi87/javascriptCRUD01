@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.644);
+}
+
+.main-add h2 {
+  margin: 10px 0px;
+}
+
+.main-edit h2 {
+  margin: 10px 0px;
+}
+
+.view-form h2{
+    margin: 10px 0px;
+}
+}
+
+.student-table {
+  margin: 10px 0px;
+}
+
+.student-table h2 {
+  margin: 10px 0px;
+}
+
+header {
+  background-color: black;
+}
+
+header h1 {
+  text-align: center;
+  color: aliceblue;
+  padding: 10px;
+  max-width: 500px;
+  box-shadow: 5px 5px 10px black;
+}
+
+/* crud operation */
+
+.crud-form {
+  display: flex;
+  justify-content: space-around;
+}
+
+label {
+  display: block;
+  color: black;
+}
+
+.addform {
+  padding: 10px;
+  max-width: 500px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 10px;
+  background-color: white;
+}
+
+.editform {
+  padding: 10px;
+  max-width: 500px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 10px;
+  background-color: white;
+}
+
+.view-form{
+    padding: 10px;
+    max-width: 500px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px;
+    background-color: white;
+  .className {border : '4em solid black';}
+
+}
+.addinputs {
+  margin: 9px 0px;
+  width: 100%;
+}
+
+.inputs {
+  padding: 9px;
+  width: 100%;
+}
+
+.inputs:focus {
+  outline: 0;
+}
+
+input[type="submit"] {
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: skyblue;
+}
+
+.text-area {
+  resize: none;
+}
+
+.text-area:focus {
+  outline: 0;
+}
+
+.addinputs label {
+  margin: 5px 0;
+}
+
+.main-back {
+  background-color: gray;
+  padding: 20px;
+}
